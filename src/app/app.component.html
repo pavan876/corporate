@@ -2,7 +2,7 @@
 <header>
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="assets/images/optim-group-logo.svg" alt="Navbar Brand Logo" /></a>
+            <a class="navbar-brand" href="#"><img src="{{BASE_URL+'assets/images/optim-group-logo.svg'}}" alt="Navbar Brand Logo" /></a>
             <button class="btn-border navbar-toggler" type="button" onclick="openNav()" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars" aria-hidden="true"></i>
       </button>
@@ -22,7 +22,7 @@
                     <div class="col-sm-12 px-0">
                         <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                             <li class="nav-item position-relative border-bottom mb-3 pb-2">
-                                <a class="navbar-brand float-start" href="#"><img src="assets/images/optim-group-logo.svg" alt="Navbar Brand Logo" /></a> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <a class="navbar-brand float-start" href="#"><img src="{{BASE_URL+'assets/images/optim-group-logo.svg'}}" alt="Navbar Brand Logo" /></a> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                             </li>
                             <li class="nav-item"><a class="nav-link" href="#">Our Mission</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Impact</a></li>
@@ -66,7 +66,7 @@
     <!-- Hero Banner Starts-->
     <section id="slider" class="slider-element include-header" style="background: url('assets/images/banner-visual.png') 100% 0px / auto 100% no-repeat; position: relative; max-height: 90vh; padding: 100px 0 0;">
         <div class="slider_img d-none d-sm-block d-lg-none d-md-none">
-            <img src="assets/images/banner-visual.png">
+            <img src="{{BASE_URL+'assets/images/banner-visual.png'}}">
         </div>
         <div class="container-fluid position-relative clearfix" style="z-index: 1;">
             <div class="row mt-md-5 mt-md-5 clearfix">
@@ -162,7 +162,7 @@
                 </div>
 
                 <div class="col-md-7 diagram mx-auto text-center order-sm-1">
-                    <img src="assets/images/corporate-logos-diagram.png" alt="Hero image" />
+                    <img src="{{BASE_URL+'assets/images/corporate-logos-diagram.png'}}" alt="Hero image" />
                 </div>
             </div>
         </div>
@@ -189,7 +189,7 @@
                         <div class="col-sm-6 col-6 d-flex align-items-stretch mb-4 justify-content-center">
                             <div class="card repo-card text-center">
                                 <div class="card-body">
-                                    <img src="assets/images/ai.png" alt="Ai Powered" />
+                                    <img src="{{BASE_URL +'assets/images/ai.png'}}" alt="Ai Powered" />
                                     <h4 class="card-title text-center mt-3">A.I. Powered</h4>
                                 </div>
                             </div>
@@ -198,7 +198,7 @@
                         <div class="col-sm-6 col-6 d-flex align-items-stretch mb-4 justify-content-center">
                             <div class="card repo-card text-center">
                                 <div class="card-body">
-                                    <img src="assets/images/referral.png" alt="Referal System" />
+                                    <img src="{{BASE_URL+'assets/images/referral.png'}}" alt="Referal System" />
                                     <h4 class="card-title text-center mt-3">Referal System</h4>
                                 </div>
                             </div>
@@ -207,7 +207,7 @@
                         <div class="col-sm-6 col-6 d-flex align-items-stretch mb-4 justify-content-center">
                             <div class="card repo-card text-center">
                                 <div class="card-body">
-                                    <img src="assets/images/interview.png" alt="Interview" />
+                                    <img src="{{BASE_URL+'assets/images/interview.png'}}" alt="Interview" />
                                     <h4 class="card-title text-center mt-3">Video Interview Tools</h4>
                                 </div>
                             </div>
@@ -216,7 +216,7 @@
                         <div class="col-sm-6 col-6 d-flex align-items-stretch mb-4 justify-content-center">
                             <div class="card repo-card text-center">
                                 <div class="card-body">
-                                    <img src="assets/images/ats-system.png" alt="ATS System" />
+                                    <img src="{{BASE_URL+'assets/images/ats-system.png'}}" alt="ATS System" />
                                     <h4 class="card-title text-center mt-3">ATS System</h4>
                                 </div>
                             </div>
@@ -239,7 +239,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 primary c_img">
-                    <img src="assets/images/monthly-cost.png" alt="Hero image" />
+                    <img src="{{BASE_URL+'assets/images/monthly-cost.png'}}" alt="Hero image" />
                 </div>
 
                 <div class="col-md-5 secondary offset-lg-1">
@@ -268,7 +268,7 @@
                 </div>
 
                 <div class="col-md-5 secondary offset-lg-1 mx-auto">
-                    <img src="assets/images/global-job.png" alt="Hero image" />
+                    <img src="{{BASE_URL+'assets/images/global-job.png'}}" alt="Hero image" />
                 </div>
             </div>
         </div>
@@ -282,7 +282,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 primary c_img">
-                    <img src="assets/images/easier-business.png" alt="Hero image" />
+                    <img src="{{BASE_URL+'assets/images/easier-business.png'}}" alt="Hero image" />
                 </div>
 
                 <div class="col-md-5 secondary offset-lg-1">
@@ -315,9 +315,9 @@
                 <div class="item">
                     <div class="card recruit-team mb-3">
                         <div href="#recruit1" data-toggle="modal" class="testimonial-video-box video-box-wrap video-box-small" role="button" tabindex="0">
-                            <img class="card-img-top" src="assets/images/recruit-1.png" alt="Referral partner Varsha testimonial video" />
+                            <img class="card-img-top" src="{{BASE_URL+'assets/images/recruit-1.png'}}" alt="Referral partner Varsha testimonial video" />
                             <span class="play-btn">
-                  <a href="javascript:void(0)" class="yt-play-btn"><img src="assets/images/youtube.svg" class="youtube-btn-io" /></a>
+                  <a href="javascript:void(0)" class="yt-play-btn"><img src="{{BASE_URL+'assets/images/youtube.svg'}}" class="youtube-btn-io" /></a>
                 </span>
                             <span class="video-timer">0:12</span>
                             <!-- <video width="100%" height="200px" controls>
@@ -335,9 +335,9 @@
                 <div class="item">
                     <div class="card recruit-team mb-3">
                         <div href="#recruit2" data-toggle="modal" class="testimonial-video-box video-box-wrap video-box-small" role="button" tabindex="0">
-                            <img class="card-img-top" src="assets/images/recruit-2.png" alt="Referral partner Varsha testimonial video" />
+                            <img class="card-img-top" src="{{BASE_URL+'assets/images/recruit-2.png'}}" alt="Referral partner Varsha testimonial video" />
                             <span class="play-btn">
-                  <a href="javascript:void(0)" class="yt-play-btn"><img src="assets/images/youtube.svg" class="youtube-btn-io" /></a>
+                  <a href="javascript:void(0)" class="yt-play-btn"><img src="{{BASE_URL+'assets/images/youtube.svg'}}" class="youtube-btn-io" /></a>
                 </span>
                             <span class="video-timer">0:12</span>
                             <!-- <video width="100%" height="200px" controls>
@@ -355,9 +355,9 @@
                 <div class="item">
                     <div class="card recruit-team mb-3">
                         <div href="#recruit3" data-toggle="modal" class="testimonial-video-box video-box-wrap video-box-small" role="button" tabindex="0">
-                            <img class="card-img-top" src="assets/images/recruit-3.png" alt="Referral partner Varsha testimonial video" />
+                            <img class="card-img-top" src="{{BASE_URL+'assets/images/recruit-3.png'}}" alt="Referral partner Varsha testimonial video" />
                             <span class="play-btn">
-                  <a href="javascript:void(0)" class="yt-play-btn"><img src="assets/images/youtube.svg" class="youtube-btn-io" /></a>
+                  <a href="javascript:void(0)" class="yt-play-btn"><img src="{{BASE_URL+'assets/images/youtube.svg'}}" class="youtube-btn-io" /></a>
                 </span>
                             <span class="video-timer">0:12</span>
                             <!-- <video width="100%" height="200px" controls>
@@ -396,9 +396,9 @@
                 <div class="item">
                     <div class="card recruit-team mb-3">
                         <div href="#dev1" data-toggle="modal" class="testimonial-video-box video-box-wrap video-box-small" role="button" tabindex="0">
-                            <img class="card-img-top" src="assets/images/dev_1.jpg" alt="Referral partner Varsha testimonial video" />
+                            <img class="card-img-top" src="{{BASE_URL+'assets/images/dev_1.jpg'}}" alt="Referral partner Varsha testimonial video" />
                             <span class="play-btn">
-                  <a href="javascript:void(0)" class="yt-play-btn"><img src="assets/images/youtube.svg" class="youtube-btn-io" /></a>
+                  <a href="javascript:void(0)" class="yt-play-btn"><img src="{{BASE_URL+'assets/images/youtube.svg'}}" class="youtube-btn-io" /></a>
                 </span>
                             <span class="video-timer">0:12</span>
                             <!-- <video width="100%" height="200px" controls>
@@ -416,9 +416,9 @@
                 <div class="item">
                     <div class="card recruit-team mb-3">
                         <div href="#dev2" data-toggle="modal" class="testimonial-video-box video-box-wrap video-box-small" role="button" tabindex="0">
-                            <img class="card-img-top" src="assets/images/dev_2.jpg" alt="Referral partner Varsha testimonial video" />
+                            <img class="card-img-top" src="{{BASE_URL+'assets/images/dev_2.jpg'}}" alt="Referral partner Varsha testimonial video" />
                             <span class="play-btn">
-                  <a href="javascript:void(0)" class="yt-play-btn"><img src="assets/images/youtube.svg" class="youtube-btn-io" /></a>
+                  <a href="javascript:void(0)" class="yt-play-btn"><img src="{{BASE_URL+'assets/images/youtube.svg'}}" class="youtube-btn-io" /></a>
                 </span>
                             <span class="video-timer">0:12</span>
                             <!-- <video width="100%" height="200px" controls>
@@ -436,9 +436,9 @@
                 <div class="item">
                     <div class="card recruit-team mb-3">
                         <div href="#dev3" data-toggle="modal" class="testimonial-video-box video-box-wrap video-box-small" role="button" tabindex="0">
-                            <img class="card-img-top" src="assets/images/dev_3.jpg" alt="Referral partner Varsha testimonial video" />
+                            <img class="card-img-top" src="{{BASE_URL+'assets/images/dev_3.jpg'}}" alt="Referral partner Varsha testimonial video" />
                             <span class="play-btn">
-                  <a href="javascript:void(0)" class="yt-play-btn"><img src="assets/images/youtube.svg" class="youtube-btn-io" /></a>
+                  <a href="javascript:void(0)" class="yt-play-btn"><img src="{{BASE_URL+'assets/images/youtube.svg'}}" class="youtube-btn-io" /></a>
                 </span>
                             <span class="video-timer">0:12</span>
                             <!-- <video width="100%" height="200px" controls>
@@ -481,7 +481,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-4 col-md-3 col-sm-3 col-4 mb-3 pl_10">
                             <div class="card recruit-team">
-                                <img class="card-img-top" src="assets/images/lakshmi-dp.jpg" alt="Card image" style="width: 100%;" />
+                                <img class="card-img-top" src="{{BASE_URL+'assets/images/lakshmi-dp.jpg'}}" alt="Card image" style="width: 100%;" />
                                 <div class="card-body">
                                     <h4 class="title">Lakshmi M Kodali</h4>
                                     <b class="position">CEO</b>
@@ -491,7 +491,7 @@
 
                         <div class="col-lg-4 col-md-3 col-sm-3 col-4 mb-3 pl_10">
                             <div class="card recruit-team">
-                                <img class="card-img-top" src="assets/images/pavan-dp.jpg" alt="Card image" style="width: 100%;" />
+                                <img class="card-img-top" src="{{BASE_URL+'assets/images/pavan-dp.jpg'}}" alt="Card image" style="width: 100%;" />
                                 <div class="card-body">
                                     <h4 class="title">Pavan Kumar Rao</h4>
                                     <b class="position">CTO</b>
@@ -501,7 +501,7 @@
 
                         <div class="col-lg-4 col-md-3 col-sm-3 col-4 mb-3 pl_10">
                             <div class="card recruit-team">
-                                <img class="card-img-top" src="assets/images/mustafa-dp.jpg" alt="Card image" style="width: 100%;" />
+                                <img class="card-img-top" src="{{BASE_URL+'assets/images/mustafa-dp.jpg'}}" alt="Card image" style="width: 100%;" />
                                 <div class="card-body">
                                     <h4 class="title">Mustafa Hussain</h4>
                                     <b class="position">COD</b>
@@ -511,7 +511,7 @@
 
                         <div class="col-lg-4 col-md-3 col-sm-3 col-4 mb-3 pl_10">
                             <div class="card recruit-team">
-                                <img class="card-img-top" src="assets/images/ankan-dp.jpg" alt="Card image" style="width: 100%;" />
+                                <img class="card-img-top" src="{{BASE_URL+'assets/images/ankan-dp.jpg'}}" alt="Card image" style="width: 100%;" />
                                 <div class="card-body">
                                     <h4 class="title">Ankan C</h4>
                                     <b class="position">Sales Head</b>
@@ -521,7 +521,7 @@
 
                         <div class="col-lg-4 col-md-3 col-sm-3 col-4 mb-3 pl_10">
                             <div class="card recruit-team">
-                                <img class="card-img-top" src="assets/images/ashutosh-dp.jpg" alt="Card image" style="width: 100%;" />
+                                <img class="card-img-top" src="{{BASE_URL+'assets/images/ashutosh-dp.jpg'}}" alt="Card image" style="width: 100%;" />
                                 <div class="card-body">
                                     <h4 class="title">Ashutosh Vyash</h4>
                                     <b class="position">VP of Marketing</b>
@@ -549,20 +549,20 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12 p-2 d-flex align-items-center justify-content-center align-items-stretch">
                     <div class="card recruit-team mb-3">
-                        <img class="card-img-top" src="assets/images/women-work.jpg" alt="Card image" style="width: 100%;" />
+                        <img class="card-img-top" src="{{BASE_URL+'assets/images/women-work.jpg'}}" alt="Card image" style="width: 100%;" />
                         <div class="card-body">
                             <h4 class="title">70% increase in Women Work Participation</h4>
-                            <a href="#" class="full-story-link">Learn More<img src="assets/images/arrow-right.png" alt="Right Arrow" /></a>
+                            <a href="#" class="full-story-link">Learn More<img src="{{BASE_URL+'assets/images/arrow-right.png'}}" alt="Right Arrow" /></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-6 col-md-6 col-sm-6 col-12 p-2 d-flex align-items-center justify-content-center align-items-stretch">
                     <div class="card recruit-team mb-3">
-                        <img class="card-img-top" src="assets/images/remote-wroking.jpg" alt="Card image" style="width: 100%;" />
+                        <img class="card-img-top" src="{{BASE_URL+'assets/images/remote-work.jpg'}}" alt="Card image" style="width: 100%;" />
                         <div class="card-body">
                             <h4 class="title">Remote working leads to 150% increase in rural workforce...</h4>
-                            <a href="#" class="full-story-link">Learn More<img src="assets/images/arrow-right.png" alt="Right Arrow" /></a>
+                            <a href="#" class="full-story-link">Learn More<img src="{{BASE_URL+'assets/images/arrow-right.png'}}" alt="Right Arrow" /></a>
                         </div>
                     </div>
                 </div>
@@ -595,33 +595,33 @@
             <div class="row d-flex">
                 <div class="col-lg-4 col-md-4 col-sm-6 col-12 d-flex align-items-stretch justify-content-center mx-auto">
                     <div class="card recruit-team mb-3">
-                        <div class="img-wrap"><img class="card-img-top" src="assets/images/optim-feature.jpg" alt="Card image" style="width: 100%;" /></div>
+                        <div class="img-wrap"><img class="card-img-top" src="{{BASE_URL+'assets/images/optim-feature.jpg'}}" alt="Card image" style="width: 100%;" /></div>
                         <div class="card-body">
                             <b class="position">Technology <span class="float-end">Dec 12, 2021</span></b>
                             <h4 class="title">OptimHire Features: Introducing Hiring</h4>
-                            <a href="#" class="full-story-link">Read More<img src="assets/images/arrow-right.png" alt="Right Arrow" /></a>
+                            <a href="#" class="full-story-link">Read More<img src="{{BASE_URL+'assets/images/arrow-right.png'}}" alt="Right Arrow" /></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6 col-12 d-flex align-items-stretch justify-content-center mx-auto">
                     <div class="card recruit-team mb-3">
-                        <div class="img-wrap"><img class="card-img-top" src="assets/images/tool-feature.jpg" alt="Card image" style="width: 100%;" /></div>
+                        <div class="img-wrap"><img class="card-img-top" src="{{BASE_URL+'assets/images/tool-feature.jpg'}}" alt="Card image" style="width: 100%;" /></div>
                         <div class="card-body">
                             <b class="position">Tools <span class="float-end">Jan 02, 2022</span></b>
                             <h4 class="title">The Complete Guide to Employee Onboarding</h4>
-                            <a href="#" class="full-story-link">Read More<img src="assets/images/arrow-right.png" alt="Right Arrow" /></a>
+                            <a href="#" class="full-story-link">Read More<img src="{{BASE_URL+'assets/images/arrow-right.png'}}" alt="Right Arrow" /></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6 col-12 d-flex align-items-stretch justify-content-center mx-auto">
                     <div class="card recruit-team mb-3">
-                        <div class="img-wrap"><img class="card-img-top" src="assets/images/hiring-feature.jpg" alt="Card image" style="width: 100%;" /></div>
+                        <div class="img-wrap"><img class="card-img-top" src="{{BASE_URL+'assets/images/hiring-feature.jpg'}}" alt="Card image" style="width: 100%;" /></div>
                         <div class="card-body">
                             <b class="position">Hiring <span class="float-end">Jan 02, 2022</span></b>
                             <h4 class="title">Is it Possible to Reinvent Your Company Culture?</h4>
-                            <a href="#" class="full-story-link">Read More<img src="assets/images/arrow-right.png" alt="Right Arrow" /></a>
+                            <a href="#" class="full-story-link">Read More<img src="{{BASE_URL+'assets/images/arrow-right.png'}}" alt="Right Arrow" /></a>
                         </div>
                     </div>
                 </div>
@@ -824,7 +824,7 @@
             <div class="modal-body">
                 <div class="embed-responsive embed-responsive-16by9" style="height: 315px;">
                     <video id="video" height="315px" autoplay="off" controls="controls" preload="none" width="100%" poster="assets/images/recruit-1.png">
-    <source id="mp4" src="assets/images/1.mp4" type="video/mp4" />
+    <source id="mp4" src="{{BASE_URL+'assets/images/1.mp4'}}" type="video/mp4" />
   </video>
                 </div>
             </div>
@@ -839,7 +839,7 @@
             <div class="modal-body">
                 <div class="embed-responsive embed-responsive-16by9" style="height: 315px;">
                     <video id="video" height="315px" autoplay="off" controls="controls" preload="none" width="100%" poster="assets/images/recruit-2.png">
-    <source id="mp4" src="assets/images/2.mp4" type="video/mp4" />
+    <source id="mp4" src="{{BASE_URL+'assets/images/2.mp4'}}" type="video/mp4" />
   </video>
                 </div>
             </div>
@@ -854,7 +854,7 @@
             <div class="modal-body">
                 <div class="embed-responsive embed-responsive-16by9" style="height: 315px;">
                     <video id="video" height="315px" autoplay="off" controls="controls" preload="none" width="100%" poster="assets/images/recruit-3.png">
-    <source id="mp4" src="assets/images/3.mp4" type="video/mp4" />
+    <source id="mp4" src="{{BASE_URL+'assets/images/3.mp4'}}" type="video/mp4" />
   </video>
                 </div>
             </div>
@@ -868,8 +868,8 @@
 
             <div class="modal-body">
                 <div class="embed-responsive embed-responsive-16by9" style="height: 315px;">
-                    <video id="video" height="315px" autoplay="off" controls="controls" preload="none" width="100%" poster="assets/images/dev_1.jpg">
-    <source id="mp4" src="assets/images/d_1.mp4" type="video/mp4" />
+                    <video id="video" height="315px" autoplay="off" controls="controls" preload="none" width="100%" poster="{{BASE_URL+'assets/images/dev_1.jpg'}}">
+    <source id="mp4" src="{{BASE_URL+'assets/images/d_1.mp4'}}" type="video/mp4" />
   </video>
                 </div>
             </div>
@@ -883,8 +883,8 @@
 
             <div class="modal-body">
                 <div class="embed-responsive embed-responsive-16by9" style="height: 315px;">
-                    <video id="video" height="315px" autoplay="off" controls="controls" preload="none" width="100%" poster="assets/images/dev_2.jpg">
-    <source id="mp4" src="assets/images/d_2.mp4" type="video/mp4" />
+                    <video id="video" height="315px" autoplay="off" controls="controls" preload="none" width="100%" poster="{{BASE_URL+'assets/images/dev_2.jpg'}}">
+    <source id="mp4" src="{{BASE_URL+'assets/images/d_2.mp4'}}" type="video/mp4" />
   </video>
                 </div>
             </div>
@@ -898,8 +898,8 @@
 
             <div class="modal-body">
                 <div class="embed-responsive embed-responsive-16by9" style="height: 315px;">
-                    <video id="video" height="315px" autoplay="off" controls="controls" preload="none" width="100%" poster="assets/images/dev_3.jpg">
-    <source id="mp4" src="assets/images/d_3.mp4" type="video/mp4" />
+                    <video id="video" height="315px" autoplay="off" controls="controls" preload="none" width="100%" poster="{{BASE_URL+'assets/images/dev_3.jpg'}}">
+    <source id="mp4" src="{{BASE_URL+'assets/images/d_3.mp4'}}" type="video/mp4" />
   </video>
                 </div>
             </div>
