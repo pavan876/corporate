@@ -175,7 +175,7 @@
         $.ajax({
           dataType: 'json',
           type: 'POST',
-          url: 'https://dev.optimhire.com/corporate/sendContactMessage',
+          url: 'https://optimhire.com/corporate/sendContactMessage',
           data: data,
           cache: false,
           beforeSend: function() {
